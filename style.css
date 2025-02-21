@@ -1,0 +1,72 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif ;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* Space between logo and text */
+  }
+  
+  .logo-image {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+  }
+ 
+  .logo-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    color: #0af2b8; /* Matches your site's theme */
+  }
+  
+  
+  /* Navbar */
+  .navbar .nav-link.active {
+    color: #ffffff;
+    background-color: #0af2db;
+    border-radius: 5px;
+    padding: 0.3rem 0.6rem;
+  }
+  
+  /* Movie Cards */
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+ 
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Movie Details */
+  #movie-details-content {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #movie-details-content img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  #movie-details-content h2 {
+    margin-top: 20px;
+    color: #0a6bf2;
+  }
+
